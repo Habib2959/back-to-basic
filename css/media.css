@@ -1,0 +1,210 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .header-section .top-header .form-inline{
+    padding-top: 10px;
+    text-align: center;
+  }
+  .top-header .form-control {
+      width: 65%;
+  }
+  .top-header .btn {
+      padding: 0.45rem 0.75rem;
+      margin-left: auto;
+  }
+  .bottom-header .social-icons{
+    display: block;
+    text-align: center;
+  }
+  .banner-section .carousel-indicators li {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+  }
+  .intro-inner{
+    padding-bottom: 30px;
+  }
+  .services .title h4{
+    text-align: center;
+  }
+  .services .right-side .flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .services .right-side .flex-container .right-content{
+    flex: 50%;
+    padding-top: 1vw;
+  }
+  .services .right-side .button{
+    text-align: center;
+  }
+  .footer-section h5{
+    text-align: center;
+    font-size: 3vw;
+  }
+  .footer-section h6{
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 20px;
+  }
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+   .top-header img{
+      width: 145px;
+   }
+  
+   .top-header .form-control {
+       width: 65%;
+   }
+   .top-header .btn {
+       padding: 0.45rem 0.75rem;
+       margin-left: auto;
+   }
+   .bottom-header .social-icons{
+     display: block;
+     text-align: center;
+   }
+   .banner-section .carousel-indicators li {
+       width: 10px;
+       height: 10px;
+       border-radius: 50%;
+   }
+   .intro-inner{
+     padding-bottom: 30px;
+   }
+   .services .title h4{
+     text-align: center;
+   }
+   .footer-section h5{
+     text-align: center;
+     font-size: 3vw;
+   }
+   .footer-section h6{
+     text-align: center;
+     font-size: 3vw;
+     margin-top: 20px;
+   }
+
+  
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .bottom-header .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 1.5rem;
+      padding-left: 0;
+      font-size: 13px;
+      font-weight: 600;
+  }
+  .bottom-header .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, 
+  .navbar-light .navbar-nav .show > .nav-link {
+      color: #d54346;
+      font-size: 14px;
+      font-weight: 600;
+  }
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .banner-section .carousel-caption {
+        background:  transparent;
+        height: auto;
+    }
+    .banner-section .carousel-caption h5{
+        font-size: 1.5vw;
+    }
+    .bottom-header .social-icons li a{
+      color: #fff !important;
+      margin-left: 5px;
+    }
+    .services .right-side .flex-container{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+    }
+    .services .right-side img{
+      width: 70%;
+    }
+    .services .right-side .flex-container .right-content{
+      flex: 50%;
+      padding-top: 1vw;
+      padding-left: 0;
+    }
+    .services .right-side .flex-content img{
+      width: 25%;
+    }
+    .footer-section h5{
+      text-align: left;
+      font-size: 10px;
+    }
+    .footer-section h6{
+      text-align: right;
+      font-size: 12px;
+    }
+    .services .right-side .flex-container{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      flex: 50%;
+    }
+    .services .right-side .flex-container .right-content{
+      flex: 50%;
+      padding-left: 1vw;
+    }
+
+  
+}
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+

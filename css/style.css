@@ -1,0 +1,369 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: monospace;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6,{
+	font-family: serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+/*psd code goes here*/
+
+/*header section starts*/
+.header-section{
+	width: 100%;
+}
+.header-section .top-header{
+	width: 100%;
+}
+.top-header .bg-light{
+	background: #fff !important;
+}
+.top-header .form-control {
+    display: block;
+/*    width: 100%;*/
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #353535;
+    background-clip: padding-box;
+    border: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.top-header .btn-outline-success{
+	color: #fff !important;
+	text-transform: uppercase;
+}
+
+.top-header .btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #d54346;
+    border: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,
+			    background-color .15s ease-in-out,
+			    border-color .15s ease-in-out,
+			    box-shadow .15s ease-in-out;
+}
+.top-header .btn:hover{
+	background: transparent;
+	border: 2px solid #d54346;
+	color:  #d54346 !important;
+}
+.bottom-header{
+	width: 100%;
+}
+.bottom-header .bg-light{
+	background: #fff !important;
+	text-transform: uppercase;
+}
+.bottom-header .navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #d54346;
+    font-size: 16px;
+    font-weight: 600;
+}
+.bottom-header .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+    padding-left: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+.bottom-header .navbar-expand-lg .navbar-nav .nav-link:hover{
+	color: #d54346;
+	transition: .5s;
+}
+.bottom-header .social-icons{
+	display: block;
+	text-align: right;
+}
+.bottom-header .social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.bottom-header .social-icons li a{
+	color: #fff !important;
+	margin-left: 10px;
+}
+.bottom-header .social-icons li a .fa{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 100%;
+	text-align:center;
+	background: #353535;
+}
+.bottom-header .social-icons li a .fa:hover{
+	background: #d54346 !important;
+	transition: .5s;
+}
+/*header section ends*/
+/*banner section starts*/
+.banner-section{
+	width: 100%;
+}
+.banner-section .carousel-caption {
+    position: absolute;
+    right: 50%;
+    bottom: 20px;
+    left: 9%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background:  #151515;
+    height: 125px;
+}
+.banner-section .carousel-caption h5{
+	font-size: 1.4vw;
+}
+.banner-section .carousel-indicators .active {
+    opacity: .5;
+}
+.banner-section .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: right;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.banner-section .carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 1;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+/*banner section ends*/
+/*intro section starts*/
+.intro{
+	width: 100%;
+	padding: 50px 0px 0px;
+}
+.intro h5{
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.intro .btn-outline-success{
+	color: #fff !important;
+	text-transform: uppercase;
+}
+.intro .btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #d54346;
+    border: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,
+			    background-color .15s ease-in-out,
+			    border-color .15s ease-in-out,
+			    box-shadow .15s ease-in-out;
+}
+.intro .btn:hover{
+	background: transparent;
+	border: 2px solid #d54346;
+	color:  #d54346 !important;
+}
+.intro .btn:focus{
+	background: transparent;
+	border: 2px solid #d54346;
+	color:  #d54346 !important;
+	outline: none !important;
+}
+.intro .btn-outline-success:not(:disabled):not(.disabled).active,
+ .btn-outline-success:not(:disabled):not(.disabled):active,
+  .show > .btn-outline-success.dropdown-toggle {
+	background: transparent;
+	border: 2px solid #d54346;
+	color:  #d54346 !important;
+	outline: none;
+}
+.intro .btn-outline-success:not(:disabled):not(.disabled).active:focus,
+ .btn-outline-success:not(:disabled):not(.disabled):active:focus,
+  .show > .btn-outline-success.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.border{
+	width: 100%;
+	height: 1px;
+	background: #eee;
+	margin-top: 55px;
+}
+/*intro section ends*/
+/*service section strts*/
+.services{
+	width: 100%;
+	padding: 50px 0px 0px;
+}
+.services .title h4{
+	font-weight: 700;
+	padding-bottom: 30px;
+}
+.services .left-side .media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding-bottom: 27px;
+}
+.services .left-side .media-body {
+    -ms-flex: 1;
+    flex: 1;
+}
+.services .left-side .media h5{
+	font-weight: 600;
+	color: #d54346;
+}
+.services .right-side .flex-container{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	flex: 50%;
+}
+.services .right-side .flex-container .right-content{
+	flex: 50%;
+	padding-left: 1vw;
+}
+.services .right-side .bottom-content{
+	padding-top: 1vw ;
+}
+.services .right-side .btn-outline-success{
+	color: #fff !important;
+	text-transform: uppercase;
+}
+
+.services .right-side .btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #d54346;
+    border: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,
+			    background-color .15s ease-in-out,
+			    border-color .15s ease-in-out,
+			    box-shadow .15s ease-in-out;
+}
+.services .right-side .btn:hover{
+	background: transparent;
+	border: 2px solid #d54346;
+	color:  #d54346 !important;
+}
+.services .right-side .button{
+	text-align: right;
+	padding: 20px 0px 40px;
+}
+.services .right-side .flex-content{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	flex: 50%;
+}
+.services .right-side .flex-content .right-content{
+	flex: 50%;
+	padding-left: 1vw;
+}
+.services .right-side .flex-content h6{
+	font-weight: 600;
+}
+.services .right-side .flex-content a{
+	color: #d54346 !important;
+}
+.services .right-side .flex-content img{
+	height: 55px;
+}
+/*service section ends*/
+/*footer section starts*/
+.footer-section{
+	width: 100%;
+	padding: 20px 0px;
+}
+.footer-section h5{
+	text-align: left;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 0px !important;
+}
+.footer-section h6{
+	text-align: right;
+	font-weight: 600;
+	margin-bottom: 0px !important;
+}
+/*footer section ends*/
